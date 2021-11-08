@@ -49,7 +49,7 @@ const MenuNav= () => {
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#">REFUGIO</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    {['brota'].map((direction) => (
+                                    {['end'].map((direction) => (
                                     <DropdownButton
                                         drop={direction}
                                         key={direction}
