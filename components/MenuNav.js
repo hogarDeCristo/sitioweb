@@ -18,64 +18,66 @@ const MenuNav= () => {
                         <div className="navbar navbar-expand-lg p-0">
                             <Nav className="navbar-nav flex-fill justify-content-between align-items-center"> 
                                 <Nav.Item>
-                                    <Nav.Link href="index">INICIO</Nav.Link>
+                                    <Nav.Link href="#">INICIO</Nav.Link>
                                 </Nav.Item>
-                                <NavDropdown title="¿QUIENES SOMOS?" id="nav-dropdown">
-                                    <NavDropdown.Item>NOSOTROS</NavDropdown.Item>
+                                <NavDropdown href="#" title="¿QUIENES SOMOS?" id="nav-dropdown">
+                                    <NavDropdown.Item href="#">NOSOTROS</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>EQUIPO/AUTORIDADES</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">EQUIPO/AUTORIDADES</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>FAMILIA GRANDE</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">FAMILIA GRANDE</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="DISPOSITIVOS" id="nav-dropdown">
+                                <NavDropdown href="#" title="DISPOSITIVOS" id="nav-dropdown">
                                     {['end'].map((direction) => (
                                     <DropdownButton
                                         drop={direction}
+                                        key={direction}
                                         variant="secundario"
                                         title={` CENTROS BARRIALES `}
                                     >
-                                        <Dropdown.Item>NAZARETH</Dropdown.Item>
+                                        <Dropdown.Item href="#">NAZARETH</Dropdown.Item>
                                         <Dropdown.Divider />
-                                        <Dropdown.Item>CORAZÓN DE MARÍA</Dropdown.Item>
+                                        <Dropdown.Item href="#">CORAZÓN DE MARÍA</Dropdown.Item>
                                         <Dropdown.Divider />
-                                        <Dropdown.Item>ASUNCIÓN DE MARÍA</Dropdown.Item>
+                                        <Dropdown.Item href="#">ASUNCIÓN DE MARÍA</Dropdown.Item>
                                         <Dropdown.Divider />
-                                        <Dropdown.Item>CASA MUNILLA</Dropdown.Item>
+                                        <Dropdown.Item href="#">CASA MUNILLA</Dropdown.Item>
                                     </DropdownButton>
                                     ))}
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>EPI</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">EPI</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>REFUGIO</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">REFUGIO</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    {['end'].map((direction) => (
+                                    {['brota'].map((direction) => (
                                     <DropdownButton
                                         drop={direction}
+                                        key={direction}
                                         variant="secundario"
                                         title={`   BROTA    `}
                                     >
-                                        <Dropdown.Item>PRODUCTOS</Dropdown.Item>
+                                        <Dropdown.Item href="#">PRODUCTOS</Dropdown.Item>
                                         <Dropdown.Divider />
-                                        <Dropdown.Item>SERVICIOS</Dropdown.Item>
+                                        <Dropdown.Item href="#">SERVICIOS</Dropdown.Item>
                                     </DropdownButton>
                                     ))}
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>CASITA LIBERTAD</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">CASITA LIBERTAD</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="COMO COLABORAR" id="nav-dropdown">
-                                    <NavDropdown.Item>DONACIÓN MONETARIA</NavDropdown.Item>
+                                <NavDropdown href="#" title="COMO COLABORAR" id="nav-dropdown">
+                                    <NavDropdown.Item href="#">DONACIÓN MONETARIA</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>SER VOLUNTARIO</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">SER VOLUNTARIO</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>CONTRATAR SERVICIOS BROTA</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">CONTRATAR SERVICIOS BROTA</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item>COMPRAR PRODUCTOS BROTA</NavDropdown.Item>
+                                    <NavDropdown.Item href="#">COMPRAR PRODUCTOS BROTA</NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Item>
-                                    <Nav.Link>BLOG</Nav.Link>
+                                    <Nav.Link href="#">BLOG</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link>CONTACTO</Nav.Link>
+                                    <Nav.Link href="#">CONTACTO</Nav.Link>
                                 </Nav.Item>
                             </Nav> 
                         </div>
