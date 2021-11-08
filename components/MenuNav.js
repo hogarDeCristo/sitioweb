@@ -9,25 +9,25 @@ const MenuNav= () => {
         <>
         <div id="top" className="fixed-top">
             <div className="row">
-                <div className="col-md-12 col-lg-5">
+                <div className="col-md-12 col-lg-6">
                     <div className="logo">
                     </div>
                 </div>
-                <div className="col-lg-7">
+                <div className="col-lg-6">
                     <div className="main-menu">
                         <div className="navbar navbar-expand-lg p-0">
                             <Nav className="navbar-nav flex-fill justify-content-between align-items-center"> 
                                 <Nav.Item>
-                                    <Nav.Link href="index">INICIO</Nav.Link>
+                                    <Nav.Link>HOME</Nav.Link>
                                 </Nav.Item>
-                                <NavDropdown title="¿QUIENES SOMOS?" id="nav-dropdown">
-                                    <NavDropdown.Item>NOSOTROS</NavDropdown.Item>
+                                <NavDropdown title="SOBRE" id="nav-dropdown">
+                                    <NavDropdown.Item>HISTORIA</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item>EQUIPO/AUTORIDADES</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item>FAMILIA GRANDE</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="DISPOSITIVOS" id="nav-dropdown">
+                                <NavDropdown title="CAUSAS" id="nav-dropdown">
                                     {['end'].map((direction) => (
                                     <DropdownButton
                                         drop={direction}
@@ -62,7 +62,7 @@ const MenuNav= () => {
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item>CASITA LIBERTAD</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="COMO COLABORAR" id="nav-dropdown">
+                                <NavDropdown title="PAGINAS" id="nav-dropdown">
                                     <NavDropdown.Item>DONACIÓN MONETARIA</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item>SER VOLUNTARIO</NavDropdown.Item>

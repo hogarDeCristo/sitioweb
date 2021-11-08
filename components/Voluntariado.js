@@ -6,7 +6,7 @@ const Voluntariado = () => {
             <div className="container my-5">
                 <div className="row">
                     <div className="col-12 col-md-6">
-                        <img src="https://www.lapalabraisraelita.cl/backend/views/img/articulos/fe1f6c31eb77b.jpg" className="img-fluid" alt="voluntarios" />
+                        <img src="https://www.lapalabraisraelita.cl/backend/views/img/articulos/fe1f6c31eb77b.jpg" class="img-fluid" alt="voluntarios" />
                     </div>
                     <div className="col-12 col-md-6">
                         <div className="row"><h2>Voluntariado</h2></div>
@@ -20,24 +20,24 @@ const Voluntariado = () => {
             <div className="container my-5">
                 <div className="row"><h3>Testimonios</h3></div>
                 <div className="row mt-1">
-                    <div className="card">
-                        <div className="card-body">
+                    <div class="card">
+                        <div class="card-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>Marcelo, 28 años</p>
                         </div>
                     </div>
                 </div>
                 <div className="row mt-1">
-                    <div className="card">
-                        <div className="card-body">
+                    <div class="card">
+                        <div class="card-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>Juana, 53 años</p>
                         </div>
                     </div>
                 </div>
                 <div className="row mt-1">
-                    <div className="card">
-                        <div className="card-body">
+                    <div class="card">
+                        <div class="card-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>Mariana, 23 años</p>
                         </div>
